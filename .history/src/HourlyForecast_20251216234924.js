@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { View, Text, StyleSheet, FlatList, Dimensions } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { scale, getIconProps, getTempColor } from './helpers';
+import { scale, getIconProps } from './helpers';
 
 const { width } = Dimensions.get('window');
 
